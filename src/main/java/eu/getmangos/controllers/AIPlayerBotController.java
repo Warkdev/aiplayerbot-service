@@ -20,7 +20,7 @@ import eu.getmangos.entities.AiPlayerbotRandomBots;
 public class AIPlayerBotController {
     @Inject private Logger logger;
 
-    @PersistenceContext(name = "CHAR_PU")
+    @PersistenceContext(unitName = "CHAR_PU")
     private EntityManager em;
 
     /**
