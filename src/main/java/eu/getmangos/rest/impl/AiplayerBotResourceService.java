@@ -21,7 +21,7 @@ import eu.getmangos.mapper.AiPlayerbotRandomBotsMapper;
 import eu.getmangos.rest.AiplayerBotResource;
 
 @RequestScoped
-@Path("/v1")
+@Path("/aiplayerbot/v1")
 @Tag(name = "aiplayerbot")
 public class AiplayerBotResourceService implements AiplayerBotResource {
 
